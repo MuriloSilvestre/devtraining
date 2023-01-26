@@ -15,7 +15,6 @@ import { CoursesModule } from './courses/courses.module';
       password: 'abc123@',
       database: 'course',
       autoLoadEntities: true,
-      synchronize: true,
     }),
   ],
   controllers: [AppController],
